@@ -1,25 +1,16 @@
-# Hangman game
-![Image of website](documentation/screenshots/hangman_firstpage.JPG)
-[Link to live site](https://klaras-hangman-9d12372b114c.herokuapp.com/)
-
-The Hangman game is a Python terminal game deployed to Heroku. The goal of this game is to guess the secret word with one letter at a time. If the player guess it's wrong to many times the man hangs. If the player guess the word the man survives.
+# Tic Tac Toe
 
 ## User Experience
 ### Site purpose
-To provide a simple fun game for people that want to challenge themself. 
+
 
 ###
 
 ### User Goals
-As a user I want:
-* First of all to have a simple fun game and be challenged. (The user get's challenged with diffrent levels of difficulty and randomised words at every round.)
-* Secondly, to learn how to play and understand the game. (The user get's to understand the game if they read the rules.)
-* To play the game without any issues. (If an invalid input occurs the player get's to know what is wrong with an error message.)
-* To easily navigate through available options and have clear feedback on my inputs. (The user get's direct feedback when guessing a letter correct or wrong.)
-* To know if I won the game or not and what the secret word was. (The user get's feedback if the won or lose when the game is over. They also get's to know what the secret word was.)
+
 
 ### Project Goals
-As a programmer of the game, I want the user to meet their goals (above). I also want the game to run smoothly with no bugs.
+
 
 ## Flowchart
 * Start the game 
