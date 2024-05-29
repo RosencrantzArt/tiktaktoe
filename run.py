@@ -59,9 +59,41 @@ def is_full(board):
     """
     return all(cell !='' for row in board for cell in row)
 
+def main():
+    """
+    Main function to run the Tic Tac Toe game.
+    """
+    board=[[''for_in range(3)]for_in range(3)]
+    players = [
+        Fore.RED + 'X' + Style.RESET_ALL,
+        Fore.BLUE + '0'+ Style.RESET_ALL
+    ]
+    current_player = 0
+     while True:
+        print_board(board)
+        try:
+         row = int(input(f"Player {players[current_player]},enter row(0,1,2):"))
+         col = int(input(f"Player {players[current_player]},enter row(0,1,2):"))
+except ValueError:
+    print("Invalid input. Please enter a number between 0 and 2")
+    continue
+if 0<= row <= 2 and 0 <= col <= 2:
+    if board[row][col]=='':
+     board[row][col] = players[current_player]   
+     if check_win(board, players[current_player]);
+     print(f"Player {players[current_player]}wins!)
+     break
+    elif is_full(board):
+        print_board(board)
+        print("it's a draw!")
+        break
+    current_player = 1 - current_player
+    else:
+        print("That spot is already taken.Try again")
+        else:
+            print("Invalid input. Row and column must be between 0 and 2.")
 
-
-
-
+if __name__=="--main--":
+    main()
 
     
