@@ -40,7 +40,7 @@ def check_win(board, player):
         [(0, 0), (1, 1), (2, 2)],
         [(0, 2), (1, 1), (2, 0)]
     ]
-    fort condition in win_conditions:
+    for condition in win_conditions:
          if all(board[x][y] == player for x, y in condition):
              return True
     return False
