@@ -57,10 +57,13 @@ User 5: As a serious player I want to be able to play multiple rounds without ha
     * Python.
 * Libraries:
     
-## Bugs
 ### Fixed bugs
-
-### Remaining bugs
+* There were several bug that I fixed 
+* Fix Indentation Issues in main Function
+* Fix the Use of _ Instead of Space in List Comprehensions
+* Fix Missing Characters and Syntax Errors:
+ - Ensure all quotes and parentheses are closed correctly.
+ - Correct the operators and punctuation.
 
 
 ## Deployment
