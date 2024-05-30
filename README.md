@@ -59,22 +59,21 @@ The aim of the project is to develop a web application that allows users to play
 * **User 5:** As a serious player I want to be able to play multiple rounds without having to manually restart the program, so I can continue playing without interruption.
 
 
-
-
-## Features
-### Existing features
-
 ## Testing
-
-### Manual testing
+**Family and friends**
+Family and friends tried the game and find it easy to understand and worked smooth. 
 
 ### Automated testing
+Tested the code thrue Python Linter before submitt and found no errors. 
+![Python Linter](assets/images/pl.noerrorsfound.png)
 
-
-## Technologies Used
-* Languages: 
-* Python.
-* Libraries:
+### Language Distribution
+* HTML
+* Python: 
+* JavaScript
+* Dockerfile
+* Shell
+* Procfile
     
 ### Fixed bugs
 * There were several bug that I fixed 
@@ -98,7 +97,13 @@ The aim of the project is to develop a web application that allows users to play
 8. Scroll down to the deploy options: 
 Click enable Automatic deploys (Will Update Automatically with every "git push"). This was chosen for this project.
 
-## Credits
-### Code
+
 ### Acknowledgements
+## Acknowledgments
+- To all of the amazing coders on Youtube that share several tutorials.  
+- To everyone on slack that always answer to questions on all levels. 
+- My mentor Rory Patrick, educational and help me to stay calm. 
+
+## Contact
+For contributions or feedback, email anrosencrantz79@gmail.com
 
