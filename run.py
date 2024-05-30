@@ -7,8 +7,6 @@ from colorama import Fore, Style
 colorama.init()
 
 
-print(Fore.RED + "Colorama is working!" + Style.RESET_ALL)
-
 def print_board(board):
     """
     Prints the current state of the game board.
@@ -20,6 +18,7 @@ def print_board(board):
     for row in board:
         print(" | ".join(row))
         print("-" * 5)
+
 
 def check_win(board, player):
     """
@@ -47,6 +46,7 @@ def check_win(board, player):
             return True
     return False
 
+
 def is_full(board):
     """
     Checks if the game board is full (no more moves possible).
@@ -58,6 +58,7 @@ def is_full(board):
     bool: True if the board is full, False otherwise.
     """
     return all(cell != ' ' for row in board for cell in row)
+
 
 def main():
     """
@@ -72,8 +73,12 @@ def main():
     while True:
         print_board(board)
         try:
-            row = int(input(f"Player {players[current_player]}, enter row (0, 1, 2): "))
-            col = int(input(f"Player {players[current_player]}, enter column (0, 1, 2): "))
+            row = int(input(
+                f"Player {players[current_player]}, enter row (0, 1, 2): "
+            ))
+            col = int(input(
+                f"Player {players[current_player]}, enter column (0, 1, 2): "
+            ))
         except ValueError:
             print("Invalid input. Please enter a number between 0 and 2.")
             continue
@@ -94,6 +99,6 @@ def main():
         else:
             print("Invalid input. Row and column must be between 0 and 2.")
 
+
 if __name__ == "__main__":
     main()
-
