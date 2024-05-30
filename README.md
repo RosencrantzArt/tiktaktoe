@@ -29,22 +29,22 @@ The aim of the project is to develop a web application that allows users to play
 * Switch player. If it was player 1, swith to player 2 and vice versa)
 * Repeat. Go back to "Display the game board" 
 * End the game
-![Design FlowChart](/workspace/tiktaktoe/assets/images/game start.png)
+![Design FlowChart](/workspace/tiktaktoe/assets/images/flowchart.png)
 
 1. **Start of the Game**
-   ![Start of the Game](assets/images/game start.png)
+   ![Start of the Game](/workspace/tiktaktoe/assets/images/gamestart.png)
 
 2. **Player 1's Move**
-   ![Player 1's Move](assets/images/player one move.png)
+   ![Player 1's Move](/workspace/tiktaktoe/assets/images/playeronemove.png)
 
 3. **Player 2's Move**
-   ![Player 2's Move](assets/images/player two moves.png)
+   ![Player 2's Move](/workspace/tiktaktoe/assets/images/playertwomoves.png)
 
 4. **Winning Move**
-   ![Winning Move](assets/images/player x wins.png)
+   ![Winning Move](/workspace/tiktaktoe/assets/images/playerxwins.png)
 
 5. **Draw Game**
-   ![Draw Game](assets/images/it's a draw.png)
+   ![Draw Game](/workspace/tiktaktoe/assets/images/itsadraw.png)
 
 ## User Stories
 
