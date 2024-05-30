@@ -2,6 +2,7 @@ import os
 import sys
 import colorama
 from colorama import Fore, Style
+print(colorama.Fore.RED + "Colorama is working!" + colorama.Style.RESET_ALL)
 
 colorama.init()
 
