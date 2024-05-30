@@ -67,6 +67,22 @@ Family and friends tried the game and find it easy to understand and worked smoo
 Tested the code thrue Python Linter before submitt and found no errors. 
 ![Python Linter](assets/images/pl.noerrorsfound.png)
 
+### Technologies Used
+Languages:
+
+Python
+
+Libraries:
+
+os - Provides a way of using operating system dependent functionality.
+sys - Provides access to some variables used or maintained by the Python interpreter and to functions that interact strongly with the interpreter.
+
+colorama - Cross-platform colored terminal text, used for printing colored text to the terminal.
+
+Deployment:
+Heroku
+
+
 ### Language Distribution
 * HTML
 * Python: 
