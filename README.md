@@ -65,13 +65,15 @@ The aim of the project is to develop a web application that allows users to play
 ### Existing features
 
 ## Testing
+
 ### Manual testing
 
 ### Automated testing
 
+
 ## Technologies Used
 * Languages: 
-    * Python.
+* Python.
 * Libraries:
     
 ### Fixed bugs
