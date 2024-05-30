@@ -98,7 +98,6 @@ Tested the code thrue Python Linter before submitt and found no errors.
 Click enable Automatic deploys (Will Update Automatically with every "git push"). This was chosen for this project.
 
 
-### Acknowledgements
 ## Acknowledgments
 - To all of the amazing coders on Youtube that share several tutorials.  
 - To everyone on slack that always answer to questions on all levels. 
