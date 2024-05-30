@@ -7,24 +7,13 @@ The first player to get three of their markers in a row (horizontally, verticall
 If the board is full and no player has won, the game ends in a draw.
 
 
-## User Stories 
+## Site Purpose
 
-* User 1: As a new player I want to be able to start the game and receive a brief instruction on how to play, so that I can quickly understand the rules and get started.
+The purpose of the site is to provide an interactive platform for playing Tic Tac Toe (also known as Noughts and Crosses) online. It aims to offer a user-friendly interface where players can enjoy the game, learn the rules, and compete against each other.
 
-* User 2: As an active player I want to see the current game board after each move, so I can keep track of the game's progress and plan my next moves.
+## Project's Aim
 
-* User 3: As a player I want to be notified when someone wins the game or if it ends in a draw, so I know when the game is over and who the winner is.
-
-* User 4: As an erroneous user I want to receive clear error messages if I make an invalid move, so I can understand what went wrong and try again.
-
-* User 5: As a serious player I want to be able to play multiple rounds without having to manually restart the program, so I can continue playing without interruption.
-
-
-### Site purpose
-
-
-### Project Goals
-
+The aim of the project is to develop a web application that allows users to play Tic Tac Toe in their web browser. The project seeks to implement the game logic, user interface, and functionality to support various user interactions, including starting the game, making moves, tracking game progress, and determining the winner. Additionally, the project aims to provide error handling for invalid moves and support for playing multiple rounds seamlessly.
 
 
 ## Flowchart
@@ -41,6 +30,19 @@ If the board is full and no player has won, the game ends in a draw.
 * Repeat. Go back to "Display the game board" 
 * End the game
 ![Design FlowChart](assets/images/flowchart.png)
+
+## User Stories
+
+* **User 1:** As a new player I want to be able to start the game and receive a brief instruction on how to play, so that I can quickly understand the rules and get started.
+
+* **User 2:** As an active player I want to see the current game board after each move, so I can keep track of the game's progress and plan my next moves.
+
+* **User 3:** As a player I want to be notified when someone wins the game or if it ends in a draw, so I know when the game is over and who the winner is.
+
+* **User 4:** As an erroneous user I want to receive clear error messages if I make an invalid move, so I can understand what went wrong and try again.
+
+* **User 5:** As a serious player I want to be able to play multiple rounds without having to manually restart the program, so I can continue playing without interruption.
+
 
 
 
