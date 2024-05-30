@@ -2,9 +2,12 @@ import os
 import sys
 import colorama
 from colorama import Fore, Style
-print(colorama.Fore.RED + "Colorama is working!" + colorama.Style.RESET_ALL)
+
 
 colorama.init()
+
+
+print(Fore.RED + "Colorama is working!" + Style.RESET_ALL)
 
 def print_board(board):
     """
